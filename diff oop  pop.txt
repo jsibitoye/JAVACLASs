@@ -1,0 +1,15 @@
+ inheritance, encapsulation and polymorphism are the three pillars of OOP.
+sometimes, some of the data elements are related to some of the other data elements, and it's convenient to group them together into a data structure, which can then be manipulated and addressed as a single unit.
+
+now our procedure can take a data structure as input and alter it and/or produce another data structure as output
+
+occasionally we notice that some procedures are only concerned with a certain kind of data structure; it is convenient to group these procedures together with their data structure, and call it an object.
+
+a template for creating objects is called a class; an object is said to be an instance of a class
+
+we may notice that one class is very much like another, so instead of copying and pasting code we let one class inherit from another: the subclass inherits from the superclass or "base class". In this way the subclass has access to all of the data structures and procedures of the superclass, and can augment or override them in certain ways
+
+if we politely request an object to do something for us instead of brutally calling its procedures directly, this is called message passing, even if no actual 'message' is transmitted. The joy here is that many different kinds of objects may understand the same message, which leads to the notion of polymorphism. For example, we can ask many different kinds of documents to Print themselves, and they each respond appropriately.
+
+a language that supports objects (via classes or not) with message passing and inheritance is called object-oriented. If there is no inheritance, the language is merely object-based.
+
